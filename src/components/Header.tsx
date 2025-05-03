@@ -37,8 +37,8 @@ export default function Header({ toggleTheme }: HeaderProps) {
 
     return (
         <>
-            <AppBar position="static" elevation={0}>
-                <Toolbar sx={{ justifyContent: 'space-between', backgroundColor: 'background.paper' }}>
+            <AppBar position="fixed" elevation={0} sx={{ backgroundColor: theme.palette.background.paper }}>
+                <Toolbar sx={{ justifyContent: 'space-between', backgroundColor: 'background.paper', margin: {lg: '0 15%', md: '0 10%'} }}>
                     {/* Logo */}
                     <Typography variant="h6" sx={{ flexGrow: 1, display: 'flex', justifyContent: 'center' }}>
                         <img src="/logo.png" alt="Logo" style={{ height: 40 }} />
@@ -60,9 +60,6 @@ export default function Header({ toggleTheme }: HeaderProps) {
                                     </Link>
                                 ))}
                             </Box>
-                            <Button variant="contained" color="primary" sx={{ ml: 2 }}>
-                                Contato
-                            </Button>
                             <IconButton sx={{ ml: 2, color: theme.palette.mode === 'dark' ? 'white' : 'black' }} onClick={toggleTheme} color="inherit">
                                 {theme.palette.mode === 'dark' ? <Brightness7Icon /> : <Brightness4Icon />}
                             </IconButton>

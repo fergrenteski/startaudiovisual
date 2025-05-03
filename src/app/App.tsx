@@ -1,6 +1,8 @@
 import React from 'react';
 import { ThemeProvider, createTheme, CssBaseline } from '@mui/material';
 import Header from "../components/Header";
+import HomeBanner from "../components/HomeBanner";
+import BannerAnimadoMarcas from "../components/BannerAnimadoMarcas";
 
 export default function App() {
     const [mode, setMode] = React.useState<'light' | 'dark'>('light'); // Definindo o tipo explícito
@@ -23,7 +25,9 @@ export default function App() {
         <ThemeProvider theme={theme}>
             <CssBaseline />
             <Header toggleTheme={toggleTheme} />
-            {/* O resto do seu app */}
+            <HomeBanner />
+            <BannerAnimadoMarcas />
+            <HomeBanner />
         </ThemeProvider>
     );
 }
