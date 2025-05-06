@@ -13,7 +13,6 @@ import {
     Computer as ComputerIcon,
     Build as BuildIcon,
 } from '@mui/icons-material';
-import Secao from './Secao';
 
 const Servicos = () => {
     const theme = useTheme();
@@ -88,20 +87,18 @@ const Servicos = () => {
     ];
 
     return (
-        <Secao id="servicos" titulo="Nossos Serviços">
-            <Grid container spacing={{ xs: 1, sm: 2, md: 3 }} columns={{ xs: 1, sm: 2, md: 3 }}>
-                {servicos.map((servico, index) => (
-                    <Grid size={1} key={index} sx={{ mt: { xs: 1, sm: 0, md: 0 } }}>
-                        <ServicoCard
-                            icon={servico.icon}
-                            title={servico.title}
-                            description={servico.description}
-                            iconColor={getIconColor(servico.iconColor)}
-                        />
-                    </Grid>
-                ))}
-            </Grid>
-        </Secao>
+        <Grid container spacing={{ xs: 1, sm: 2, md: 3 }} columns={{ xs: 1, sm: 2, md: 3 }}>
+            {servicos.map((servico, index) => (
+                <Grid size={1} key={index} sx={{ mt: { xs: 1, sm: 0, md: 0 }}}>
+                    <ServicoCard
+                        icon={servico.icon}
+                        title={servico.title}
+                        description={servico.description}
+                        iconColor={getIconColor(servico.iconColor)}
+                    />
+                </Grid>
+            ))}
+        </Grid>
     );
 };
 

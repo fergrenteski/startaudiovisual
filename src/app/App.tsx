@@ -4,6 +4,8 @@ import Header from "../components/Header";
 import HomeBanner from "../components/HomeBanner";
 import BannerAnimadoMarcas from "../components/BannerAnimadoMarcas";
 import Servicos from "../components/Servicos";
+import ListaEventos from "../components/ListaEventos";
+import Secao from "../components/Secao";
 
 export default function App() {
     const [mode, setMode] = React.useState<'light' | 'dark'>('light'); // Definindo o tipo explícito
@@ -27,8 +29,15 @@ export default function App() {
             <CssBaseline />
             <Header toggleTheme={toggleTheme} />
             <HomeBanner />
-            <BannerAnimadoMarcas />
-            <Servicos />
+            <Secao titulo={"Empresas que confiaram em nós!"} subtitulo={"Estas são algumas das empresas que confiaram em nossos serviços e que tiveram o privilégio de contar com nossa expertise e compromisso em entregar soluções de alta qualidade. Estamos orgulhosos de estabelecer parcerias sólidas com organizações que reconhecem nosso trabalho e profissionalismo em cada projeto."}>
+                <BannerAnimadoMarcas />
+            </Secao>
+            <Secao id={"servicos"} titulo={"Serviços"} subtitulo={"Oferecemos uma gama completa de soluções para garantir a realização de eventos de sucesso. Com foco na excelência e na personalização, nossos serviços incluem a locação de equipamentos de alta qualidade, gerenciamento completo de logística e suporte técnico especializado. Estamos prontos para transformar qualquer evento, do pequeno ao grande porte, com tecnologia de ponta e toda a infraestrutura necessária para proporcionar uma experiência inesquecível."}>
+                <Servicos />
+            </Secao>
+                <Secao id={"portifolio"} titulo={"Portifólio"} subtitulo={"Ao longo dos anos, realizamos eventos inesquecíveis nos quatro cantos do país — de grandes metrópoles a cidades do interior. Cada projeto é planejado com atenção aos mínimos detalhes, garantindo experiências únicas, envolventes e personalizadas. Nesta seção, você confere alguns dos nossos principais eventos realizados em todo o território nacional, refletindo nosso compromisso com excelência, criatividade e resultados impactantes."}>
+            <ListaEventos/>
+            </Secao>
         </ThemeProvider>
     );
 }
