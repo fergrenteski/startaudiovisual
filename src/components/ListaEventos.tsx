@@ -28,6 +28,30 @@ const eventos = [
         date: "20 de Julho de 2025",
         location: "Expo Center Norte, São Paulo"
     },
+    {
+        title: "Conferência TechSummit",
+        subtitle: "Corporativo",
+        image: 'evento.jpeg',
+        description: "Fornecemos equipamentos de áudio, vídeo e iluminação para a maior conferência de tecnologia do país.",
+        date: "20 de Julho de 2025",
+        location: "Expo Center Norte, São Paulo"
+    },
+    {
+        title: "Conferência TechSummit",
+        subtitle: "Corporativo",
+        image: 'evento.jpeg',
+        description: "Fornecemos equipamentos de áudio, vídeo e iluminação para a maior conferência de tecnologia do país.",
+        date: "20 de Julho de 2025",
+        location: "Expo Center Norte, São Paulo"
+    },
+    {
+        title: "Conferência TechSummit",
+        subtitle: "Corporativo",
+        image: 'evento.jpeg',
+        description: "Fornecemos equipamentos de áudio, vídeo e iluminação para a maior conferência de tecnologia do país.",
+        date: "20 de Julho de 2025",
+        location: "Expo Center Norte, São Paulo"
+    },
 ];
 
 const ListaEventos: React.FC = () => {

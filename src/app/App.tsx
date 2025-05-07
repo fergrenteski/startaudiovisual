@@ -6,6 +6,7 @@ import BannerAnimadoMarcas from "../components/BannerAnimadoMarcas";
 import Servicos from "../components/Servicos";
 import ListaEventos from "../components/ListaEventos";
 import Secao from "../components/Secao";
+import VerticalTimeline from "../components/VerticalTimeline";
 
 export default function App() {
     const [mode, setMode] = React.useState<'light' | 'dark'>('light'); // Definindo o tipo explícito
@@ -37,6 +38,9 @@ export default function App() {
             </Secao>
                 <Secao id={"portifolio"} titulo={"Portifólio"} subtitulo={"Ao longo dos anos, realizamos eventos inesquecíveis nos quatro cantos do país — de grandes metrópoles a cidades do interior. Cada projeto é planejado com atenção aos mínimos detalhes, garantindo experiências únicas, envolventes e personalizadas. Nesta seção, você confere alguns dos nossos principais eventos realizados em todo o território nacional, refletindo nosso compromisso com excelência, criatividade e resultados impactantes."}>
             <ListaEventos/>
+            </Secao>
+            <Secao id={"sobre"} titulo={"Quem Somos?"} subtitulo={"A Start Audio Visual foi fundada em 2001, inicialmente como uma empresa familiar com o objetivo de oferecer soluções audiovisuais de alta qualidade. Com o tempo, a empresa passou por um processo de evolução, se estruturando de maneira sólida para atender a um mercado cada vez mais exigente. Ao longo dos anos, a Start Audio Visual se destacou pela inovação, qualidade e compromisso com a excelência, expandindo seus serviços e conquistando uma base fiel de clientes. Hoje, a empresa é reconhecida no setor por sua capacidade de entregar projetos completos, desde a locação de equipamentos até a realização de produções audiovisuais de alto nível. Com uma equipe especializada e uma infraestrutura moderna, a Start Audio Visual continua a se reinventar, mantendo sua essência familiar e seu compromisso com a qualidade e a confiança."} >
+                < VerticalTimeline />
             </Secao>
         </ThemeProvider>
     );

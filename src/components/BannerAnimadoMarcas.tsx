@@ -10,8 +10,6 @@ const logos = [
     '/brands/6.svg',
     '/brands/7.svg',
     '/brands/8.svg',
-
-
 ];
 
 const BannerAnimadoMarcas = () => {

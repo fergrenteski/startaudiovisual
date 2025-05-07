@@ -1,4 +1,3 @@
-// EventoCard.tsx
 import React, { useState, MouseEvent } from 'react';
 import {
     Box,
@@ -15,6 +14,7 @@ import { styled } from '@mui/system';
 import CloseIcon from '@mui/icons-material/Close';
 import EventIcon from '@mui/icons-material/Event';
 import PlaceIcon from '@mui/icons-material/Place';
+import { motion } from 'framer-motion';
 
 type EventoCardProps = {
     title: string;
@@ -78,24 +78,30 @@ const EventoCard: React.FC<EventoCardProps> = ({ title, subtitle, image, descrip
 
     return (
         <>
-            <EventCardContainer elevation={6}>
-                <CardMedia
-                    component="img"
-                    image={image}
-                    alt={title}
-                />
-                <HoverOverlay className="hoverContent">
-                    <Typography variant="h6" fontWeight="bold">
-                        {title}
-                    </Typography>
-                    <Typography variant="body1" gutterBottom>
-                        {subtitle}
-                    </Typography>
-                    <Button variant="contained" color="primary" onClick={handleOpen}>
-                        Ver Detalhes
-                    </Button>
-                </HoverOverlay>
-            </EventCardContainer>
+            <motion.div
+                initial={{ opacity: 0, scale: 0.8 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.8 }}
+            >
+                <EventCardContainer elevation={6}>
+                    <CardMedia
+                        component="img"
+                        image={image}
+                        alt={title}
+                    />
+                    <HoverOverlay className="hoverContent">
+                        <Typography variant="h6" fontWeight="bold">
+                            {title}
+                        </Typography>
+                        <Typography variant="body1" gutterBottom>
+                            {subtitle}
+                        </Typography>
+                        <Button variant="contained" color="primary" onClick={handleOpen}>
+                            Ver Detalhes
+                        </Button>
+                    </HoverOverlay>
+                </EventCardContainer>
+            </motion.div>
 
             <Modal open={open} onClose={() => setOpen(false)}>
                 <Box sx={modalStyle}>
