@@ -106,7 +106,7 @@ const HomeBanner = () => {
                 </Button>
             </Box>
 
-            <Box sx={{ flex: 1, display: 'flex', justifyContent: {sm: 'center', md: 'flex-end'}}}>
+            <Box sx={{ flex: 1, display: 'flex', justifyContent: {xs: 'center', md: 'flex-end'}}}>
                 <img
                     src="/person.png"
                     alt="Banner person"
