@@ -46,7 +46,6 @@ const HomeBanner = () => {
                 pt: 8,
                 minHeight: { xs: 'auto', md: '70dvh' },
                 textAlign: 'center',
-                margin: { md: '0 5rem' },
             }}
         >
             <Box
@@ -107,7 +106,7 @@ const HomeBanner = () => {
                 </Button>
             </Box>
 
-            <Box sx={{ flex: 1 }}>
+            <Box sx={{ flex: 1, display: 'flex', justifyContent: {sm: 'center', md: 'flex-end'}}}>
                 <img
                     src="/person.png"
                     alt="Banner person"
