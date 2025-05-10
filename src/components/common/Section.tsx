@@ -10,7 +10,7 @@ type SecaoProps = {
     backgroundColor?: string;
 };
 
-const Secao = ({ id, titulo, subtitulo, children, backgroundColor = 'background.paper' }: SecaoProps) => {
+const Section = ({ id, titulo, subtitulo, children, backgroundColor = 'background.paper' }: SecaoProps) => {
     return (
         <Box id={id} sx={{ py: 5, backgroundColor, textAlign: 'center' }}>
             <Container maxWidth="lg">
@@ -28,4 +28,4 @@ const Secao = ({ id, titulo, subtitulo, children, backgroundColor = 'background.
     );
 };
 
-export default Secao;
+export default Section;

@@ -1,0 +1,197 @@
+{
+  "header": {
+    "nav": {
+      "services": "Serviços",
+      "portfolio": "Portfólio",
+      "about": "Sobre"
+    }
+  },
+  "banner": {
+    "title": "SEU EVENTO!",
+    "subtitle-1": "É NOSSO TAMBÉM!",
+    "subtitle-2": "É DE TODA A EQUIPE!",
+    "text-1": "Aqui na ",
+    "text-2": "Start Audio Visual",
+    "text-3": "entregamos o máximo de qualidade, tecnologia e profissionalismo,\n para que seu evento se torne um sucesso e garanta a perfeição do audiovisual. Conte conosco,\n entre em contato e fazemos o possível para tornar sonhos em realidade.",
+    "button": "CONTATO"
+  },
+  "companies": {
+    "title": "Empresas que confiaram em nós!",
+    "subtitle": "Estas são algumas das empresas que confiaram em nossos serviços e que tiveram o privilégio de contar com nossa expertise e compromisso em entregar soluções de alta qualidade. Estamos orgulhosos de estabelecer parcerias sólidas com organizações que reconhecem nosso trabalho e profissionalismo em cada projeto."
+  },
+  "services": {
+    "title": "Serviços",
+    "subtitle": "Oferecemos uma gama completa de soluções para garantir a realização de eventos de sucesso. Com foco na excelência e na personalização, nossos serviços incluem a locação de equipamentos de alta qualidade, gerenciamento completo de logística e suporte técnico especializado. Estamos prontos para transformar qualquer evento, do pequeno ao grande porte, com tecnologia de ponta e toda a infraestrutura necessária para proporcionar uma experiência inesquecível.",
+    "items": {
+      "audio": {
+        "title": "Equipamentos Audiovisuais",
+        "description": "Câmeras, microfones, mesas de som e todos os equipamentos necessários para seu evento."
+      },
+      "sound": {
+        "title": "Sonorização",
+        "description": "Sistemas de som de alta qualidade para eventos de qualquer tamanho, garantindo áudio perfeito."
+      },
+      "led": {
+        "title": "Painel de LED",
+        "description": "Painéis de LED de alta resolução para transmissão de conteúdo com qualidade excepcional."
+      },
+      "projection": {
+        "title": "Projeção",
+        "description": "Projetores de última geração para apresentações impactantes e exibições de vídeo."
+      },
+      "live": {
+        "title": "Transmissão ao Vivo",
+        "description": "Soluções completas para streaming de eventos ao vivo, com alta qualidade de imagem e som para plataformas digitais."
+      },
+      "lighting": {
+        "title": "Iluminação Cênica",
+        "description": "Iluminação profissional para destacar palcos, ambientes e apresentações, criando atmosferas impactantes e envolventes."
+      },
+      "recording": {
+        "title": "Captação e Gravação de Eventos",
+        "description": "Registro profissional de eventos com câmeras de alta definição e equipe técnica especializada para produção de conteúdo."
+      },
+      "it": {
+        "title": "Informática",
+        "description": "Suporte em tecnologia da informação durante o evento, com montagem de redes, computadores e controle técnico digital."
+      },
+      "structures": {
+        "title": "Estruturas",
+        "description": "Montagem de estruturas como trusses, palcos, coberturas e suportes, garantindo segurança e eficiência técnica para o evento."
+      }
+    }
+  },
+  "portfolio": {
+    "title": "Portfólio",
+    "subtitle": "Ao longo dos anos, realizamos eventos inesquecíveis nos quatro cantos do país — de grandes metrópoles a cidades do interior. Cada projeto é planejado com atenção aos mínimos detalhes, garantindo experiências únicas, envolventes e personalizadas. Nesta seção, você confere alguns dos nossos principais eventos realizados em todo o território nacional, refletindo nosso compromisso com excelência, criatividade e resultados impactantes.",
+    "button": "Ver Detalhes",
+    "events": [
+      {
+        "title": "Congresso Médico",
+        "subtitle": "Conferência",
+        "description": "Fornecemos equipamentos de áudio, vídeo e iluminação para a maior conferência de tecnologia do país.",
+        "date": "20 de Julho de 2025",
+        "location": "Expo Center Norte, São Paulo",
+        "image": "eventos/evento.jpeg"
+      },
+      {
+        "title": "Feira de Saúde",
+        "subtitle": "Exposição",
+        "description": "Fornecemos equipamentos de áudio, vídeo e iluminação para a maior conferência de tecnologia do país.",
+        "date": "20 de Julho de 2025",
+        "location": "Expo Center Norte, São Paulo",
+        "image": "eventos/evento.jpeg"
+      },
+      {
+        "title": "Congresso Médico",
+        "subtitle": "Conferência",
+        "description": "Fornecemos equipamentos de áudio, vídeo e iluminação para a maior conferência de tecnologia do país.",
+        "date": "20 de Julho de 2025",
+        "location": "Expo Center Norte, São Paulo",
+        "image": "eventos/evento.jpeg"
+      },
+      {
+        "title": "Congresso Médico",
+        "subtitle": "Conferência",
+        "description": "Fornecemos equipamentos de áudio, vídeo e iluminação para a maior conferência de tecnologia do país.",
+        "date": "20 de Julho de 2025",
+        "location": "Expo Center Norte, São Paulo",
+        "image": "eventos/evento.jpeg"
+      },
+      {
+        "title": "Congresso Médico",
+        "subtitle": "Conferência",
+        "description": "Fornecemos equipamentos de áudio, vídeo e iluminação para a maior conferência de tecnologia do país.",
+        "date": "20 de Julho de 2025",
+        "location": "Expo Center Norte, São Paulo",
+        "image": "eventos/evento.jpeg"
+      },
+      {
+        "title": "Congresso Médico",
+        "subtitle": "Conferência",
+        "description": "Fornecemos equipamentos de áudio, vídeo e iluminação para a maior conferência de tecnologia do país.",
+        "date": "20 de Julho de 2025",
+        "location": "Expo Center Norte, São Paulo",
+        "image": "eventos/evento.jpeg"
+      }
+    ]
+},
+  "about": {
+    "title": "Quem Somos?",
+    "subtitle": "A Start Audio Visual foi fundada em 2001, inicialmente como uma empresa familiar com o objetivo de oferecer soluções audiovisuais de alta qualidade. Com o tempo, a empresa passou por um processo de evolução, se estruturando de maneira sólida para atender a um mercado cada vez mais exigente. Ao longo dos anos, a Start Audio Visual se destacou pela inovação, qualidade e compromisso com a excelência, expandindo seus serviços e conquistando uma base fiel de clientes. Hoje, a empresa é reconhecida no setor por sua capacidade de entregar projetos completos, desde a locação de equipamentos até a realização de produções audiovisuais de alto nível. Com uma equipe especializada e uma infraestrutura moderna, a Start Audio Visual continua a se reinventar, mantendo sua essência familiar e seu compromisso com a qualidade e a confiança.",
+    "items": {
+      "2001": {
+        "title": "Abertura da Empresa",
+        "description": "Fundação da sede principal e início das operações."
+      },
+      "2005": {
+        "title": "Filial em Brasília",
+        "description": "Expansão para a capital do Brasil."
+      },
+      "2012": {
+        "title": "Rio + 20 (Maior evento da empresa)",
+        "description": "Participação no maior evento da ONU sobre sustentabilidade."
+      },
+      "2016": {
+        "title": "+ Médicos Brasília",
+        "description": "Suporte operacional ao programa Mais Médicos."
+      },
+      "2020": {
+        "title": "Pandemia",
+        "description": "Adaptação total ao cenário pandêmico com foco em saúde pública."
+      },
+      "2021": {
+        "title": "Eventos Online",
+        "description": "Transformação digital com foco em eventos virtuais."
+      },
+      "2023": {
+        "title": "Reconstrução",
+        "description": "Reestruturação da empresa para o novo mercado."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contate-nos",
+    "subtitle": "Preencha o formulário abaixo e nossa equipe entrará em contato o mais breve possível. Seja para locação de equipamentos, suporte técnico ou produção completa, estamos prontos para atender seu projeto com qualidade e eficiência.",
+    "form": {
+      "name": "Nome",
+      "phone": "Telefone",
+      "email": "Email",
+      "contact": "Contato",
+      "message": "Mensagem",
+      "button": "ENVIAR"
+    },
+    "info": {
+      "locale": {
+        "title": "Localização",
+        "address": "Rua Major França Gomes, 53",
+        "city": "Curitiba, PR - Brasil"
+      },
+      "email": {
+        "title": "E-mail",
+        "subtitle": "start@startaudiovisual.com.br"
+      },
+      "phone": {
+        "title": "Telefone",
+        "subtitle": "+55 (41) 3228-2946"
+      }
+    }
+  },
+  "footer": {
+    "info": {
+      "title": "Start Audio Visual Ltda.",
+      "subtitle": "Locação de Equipamentos e Serviços para Eventos.\nEstamos presentes em Curitiba e Brasília.\nAtendemos eventos em todo o Brasil."
+    },
+    "nav": {
+      "title": "Navegação",
+      "home": "Início",
+      "services": "Serviços",
+      "portfolio": "Portfólio",
+      "contact": "Contato"
+    },
+    "social": {
+      "title": "Siga-nos"
+    },
+    "copyright": "Todos os direitos reservados."
+  }
+}

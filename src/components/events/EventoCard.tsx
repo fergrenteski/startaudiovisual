@@ -15,6 +15,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import EventIcon from '@mui/icons-material/Event';
 import PlaceIcon from '@mui/icons-material/Place';
 import { motion } from 'framer-motion';
+import {useTranslation} from "react-i18next";
 
 type EventoCardProps = {
     title: string;
@@ -71,6 +72,8 @@ const modalStyle = {
 const EventoCard: React.FC<EventoCardProps> = ({ title, subtitle, image, description, date, location }) => {
     const [open, setOpen] = useState(false);
 
+    const { t } = useTranslation();
+
     const handleOpen = (e: MouseEvent<HTMLButtonElement>) => {
         e.stopPropagation();
         setOpen(true);
@@ -97,7 +100,7 @@ const EventoCard: React.FC<EventoCardProps> = ({ title, subtitle, image, descrip
                             {subtitle}
                         </Typography>
                         <Button variant="contained" color="primary" onClick={handleOpen}>
-                            Ver Detalhes
+                            {t('portfolio.button')}
                         </Button>
                     </HoverOverlay>
                 </EventCardContainer>

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Box, Button, Container, Typography } from '@mui/material';
 import { Typewriter } from 'react-simple-typewriter';
 import { keyframes } from '@emotion/react';
+import {useTranslation} from "react-i18next";
 
 const bounce = keyframes`
   0%, 20%, 50%, 80%, 100% {
@@ -18,8 +19,11 @@ const bounce = keyframes`
 
 const HomeBanner = () => {
     const [showSecond, setShowSecond] = useState(false);
+    const { t, i18n } = useTranslation();
 
     useEffect(() => {
+        setShowSecond(false); // reseta quando idioma muda
+
         const totalDuration = 11 * 100 + 500; // 1600ms
 
         const timer = setTimeout(() => {
@@ -27,7 +31,9 @@ const HomeBanner = () => {
         }, totalDuration);
 
         return () => clearTimeout(timer);
-    }, []);
+    }, [i18n.language]); // <- depende da linguagem
+
+    const currentLang = i18n.language;
 
     return (
         <Container
@@ -37,8 +43,8 @@ const HomeBanner = () => {
                 alignItems: 'center',
                 justifyContent: 'center',
                 flexDirection: { xs: 'column', md: 'row' },
-                py: 8,
-                minHeight: { xs: 'auto', md: '85dvh' },
+                pt: 8,
+                minHeight: { xs: 'auto', md: '70dvh' },
                 textAlign: 'center',
                 margin: { md: '0 5rem' },
             }}
@@ -52,7 +58,8 @@ const HomeBanner = () => {
             >
                 <Typography variant="h2" component="h1" sx={{ minHeight: '3.5rem' }}>
                     <Typewriter
-                        words={['SEU EVENTO!']}
+                        key={`title-${currentLang}`}
+                        words={[t('banner.title')]}
                         loop={1}
                         typeSpeed={100}
                         deleteSpeed={50}
@@ -68,7 +75,8 @@ const HomeBanner = () => {
                 >
                     {showSecond && (
                         <Typewriter
-                            words={['É NOSSO TAMBÉM!', 'É DE TODA EQUIPE!']}
+                            key={`subtitle-${currentLang}`}
+                            words={[t('banner.subtitle-1'), t('banner.subtitle-2')]}
                             loop={1}
                             cursor
                             typeSpeed={60}
@@ -79,24 +87,23 @@ const HomeBanner = () => {
                 </Typography>
 
                 <Typography variant="body1" color="text.secondary" sx={{ mt: 2 }}>
-                    Aqui na{' '}
+                    {t('banner.text-1')}
                     <Typography component="span" fontWeight="bold">
-                        Start Audio Visual
+                        {t('banner.text-2')}
                     </Typography>{' '}
-                    entregamos o máximo de qualidade, tecnologia e profissionalismo,
-                    para que seu evento se torne um sucesso e garanta a perfeição do audiovisual. Conte conosco,
-                    entre em contato e fazemos o possível para tornar sonhos em realidade.
+                    {t('banner.text-3')}
                 </Typography>
 
                 <Button
                     variant="contained"
                     color="primary"
+                    href={"#contato"}
                     sx={{
                         mt: 2,
                         animation: `${bounce} 2s infinite`,
                     }}
                 >
-                    CONTATO
+                    {t('banner.button')}
                 </Button>
             </Box>
 

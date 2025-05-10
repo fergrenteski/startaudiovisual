@@ -1,0 +1,197 @@
+{
+  "header": {
+    "nav": {
+      "services": "Services",
+      "portfolio": "Portfolio",
+      "about": "About"
+    }
+  },
+  "banner": {
+    "title": "YOUR EVENT",
+    "subtitle-1": "AND OUR TOO!",
+    "subtitle-2": "IT'S FROM THE ENTIRE TEAM!",
+    "text-1": "Here at ",
+    "text-2": "Start Audio Visual",
+    "text-3": "We deliver the highest quality, technology and professionalism,\n so that your event becomes a success and guarantees the perfection of the audiovisual. Count on us,\n get in touch and we will do our best to make dreams come true.",
+    "button": "CONTACT"
+  },
+  "companies": {
+    "title": "Companies that trusted us!",
+    "subtitle": "These are some of the companies that have trusted our services and have had the privilege of counting on our expertise and commitment to delivering high-quality solutions. We are proud to establish solid partnerships with organizations that recognize our work and professionalism in each project."
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "We offer a full range of solutions to ensure successful events. With a focus on excellence and customization, our services include high-quality equipment rental, full logistics management and specialized technical support. We are ready to transform any event, from small to large, with cutting-edge technology and all the necessary infrastructure to provide an unforgettable experience.",
+    "items": {
+      "audio": {
+        "title": "Audiovisual Equipment",
+        "description": "Cameras, microphones, sound mixers, and all the necessary equipment for your event."
+      },
+      "sound": {
+        "title": "Sound System",
+        "description": "High-quality sound systems for events of any size, ensuring perfect audio."
+      },
+      "led": {
+        "title": "LED Panel",
+        "description": "High-resolution LED panels for exceptional content display."
+      },
+      "projection": {
+        "title": "Projection",
+        "description": "Latest-generation projectors for impactful presentations and video displays."
+      },
+      "live": {
+        "title": "Live Streaming",
+        "description": "Complete solutions for live event streaming with high-quality image and sound."
+      },
+      "lighting": {
+        "title": "Scenic Lighting",
+        "description": "Professional lighting to highlight stages, environments, and presentations, creating impactful atmospheres."
+      },
+      "recording": {
+        "title": "Event Recording",
+        "description": "Professional event recording with high-definition cameras and specialized technical teams."
+      },
+      "it": {
+        "title": "IT Services",
+        "description": "IT support during the event, including network setup, computers, and technical control."
+      },
+      "structures": {
+        "title": "Structures",
+        "description": "Assembly of structures such as trusses, stages, coverings, and supports for safety and efficiency."
+      }
+    }
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Over the years, we have held unforgettable events in all corners of the country — from large cities to small towns. Each project is planned with attention to the smallest details, ensuring unique, engaging and personalized experiences. In this section, you can check out some of our main events held throughout the country, reflecting our commitment to excellence, creativity and impactful results.",
+    "button": "See Details",
+    "events": [
+      {
+        "title": "Medical Congress",
+        "subtitle": "Conference",
+        "description": "We provided audio, video, and lighting equipment for the country's largest technology conference.",
+        "date": "July 20, 2025",
+        "location": "Expo Center Norte, São Paulo",
+        "image": "eventos/evento.jpeg"
+      },
+      {
+        "title": "Health Fair",
+        "subtitle": "Exhibition",
+        "description": "We provided audio, video, and lighting equipment for the country's largest technology conference.",
+        "date": "July 20, 2025",
+        "location": "Expo Center Norte, São Paulo",
+        "image": "eventos/evento.jpeg"
+      },
+      {
+        "title": "Medical Congress",
+        "subtitle": "Conference",
+        "description": "We provided audio, video, and lighting equipment for the country's largest technology conference.",
+        "date": "July 20, 2025",
+        "location": "Expo Center Norte, São Paulo",
+        "image": "eventos/evento.jpeg"
+      },
+      {
+        "title": "Medical Congress",
+        "subtitle": "Conference",
+        "description": "We provided audio, video, and lighting equipment for the country's largest technology conference.",
+        "date": "July 20, 2025",
+        "location": "Expo Center Norte, São Paulo",
+        "image": "eventos/evento.jpeg"
+      },
+      {
+        "title": "Medical Congress",
+        "subtitle": "Conference",
+        "description": "We provided audio, video, and lighting equipment for the country's largest technology conference.",
+        "date": "July 20, 2025",
+        "location": "Expo Center Norte, São Paulo",
+        "image": "eventos/evento.jpeg"
+      },
+      {
+        "title": "Medical Congress",
+        "subtitle": "Conference",
+        "description": "We provided audio, video, and lighting equipment for the country's largest technology conference.",
+        "date": "July 20, 2025",
+        "location": "Expo Center Norte, São Paulo",
+        "image": "eventos/evento.jpeg"
+      }
+    ]
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Start Audio Visual was founded in 2001, initially as a family business with the goal of offering high-quality audiovisual solutions. Over time, the company has undergone a process of evolution, structuring itself in a solid manner to serve an increasingly demanding market. Over the years, Start Audio Visual has stood out for its innovation, quality and commitment to excellence, expanding its services and gaining a loyal customer base. Today, the company is recognized in the industry for its ability to deliver complete projects, from equipment rental to high-level audiovisual productions. With a specialized team and modern infrastructure, Start Audio Visual continues to reinvent itself, maintaining its family essence and its commitment to quality and trust.",
+    "items": {
+      "2001": {
+        "title": "Company Foundation",
+        "description": "Headquarters opened and operations began."
+      },
+      "2005": {
+        "title": "Brasília Filial",
+        "description": "Expansion to the capital of Brazil."
+      },
+      "2012": {
+        "title": "Rio + 20 (Biggest event)",
+        "description": "Participation in the largest ONU event on sustainability."
+      },
+      "2016": {
+        "title": "+ Médicos Brasília",
+        "description": "Operational support to the Mais Médicos program."
+      },
+      "2020": {
+        "title": "Pandemic",
+        "description": "Full adaptation to the pandemic scenario focused on public health."
+      },
+      "2021": {
+        "title": "Online Events",
+        "description": "Digital transformation focused on virtual events."
+      },
+      "2023": {
+        "title": "Reconstruction",
+        "description": "Company restructuring for the new market."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Fill out the form below and our team will contact you as soon as possible. Whether it’s for equipment rental, technical support or full production, we are ready to serve your project with quality and efficiency.",
+    "form": {
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "contact": "Contact",
+      "message": "Message",
+      "button": "SEND"
+    },
+    "info": {
+      "locale": {
+        "title": "Location",
+        "address": "Street Major França Gomes, 53",
+        "city": "Curitiba, PR - Brazil"
+      },
+      "email": {
+        "title": "E-mail",
+        "subtitle": "start@startaudiovisual.com.br"
+      },
+      "phone": {
+        "title": "Phone",
+        "subtitle": "+55 (41) 3228-2946"
+      }
+    }
+  },
+  "footer": {
+    "info": {
+      "title": "Start Audio Visual Ltda.",
+      "subtitle": "Equipment Rental and Event Services.\nWe are present in Curitiba and Brasília.\nWe cater to events throughout Brazil."
+    },
+    "nav": {
+      "title": "Navigation",
+      "home": "Home",
+      "services": "Services",
+      "portfolio": "Portfolio",
+      "contact": "Contact"
+    },
+    "social": {
+      "title": "Follow Us"
+    },
+    "copyright": "All rights reserved."
+  }
+}

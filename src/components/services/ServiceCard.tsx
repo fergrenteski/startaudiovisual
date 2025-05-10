@@ -3,14 +3,14 @@ import { Box, Typography, Paper } from '@mui/material';
 import { SvgIconComponent } from '@mui/icons-material';
 import { motion } from 'framer-motion';
 
-type ServicoCardProps = {
+type ServiceCardProps = {
     icon: SvgIconComponent;
     title: string;
     description: string;
     iconColor: string;
 };
 
-const ServicoCard = ({ icon: Icon, title, description, iconColor }: ServicoCardProps) => {
+const ServiceCard = ({ icon: Icon, title, description, iconColor }: ServiceCardProps) => {
     return (
         <motion.div
             initial={{ opacity: 0, y: 40 }}
@@ -72,4 +72,4 @@ const ServicoCard = ({ icon: Icon, title, description, iconColor }: ServicoCardP
     );
 };
 
-export default ServicoCard;
+export default ServiceCard;

@@ -8,16 +8,7 @@ import {
 import { Paper, Typography, useTheme } from '@mui/material';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-
-interface AnimatedTimelineItemProps {
-    event: {
-        year: string;
-        title: string;
-        description: string;
-        icon: React.ReactNode;
-    };
-    isLast: boolean;
-}
+import { type AnimatedTimelineItemProps } from './interfaces/AnimatedTimelineItemProps';
 
 export function AnimatedTimelineItem({ event, isLast }: AnimatedTimelineItemProps) {
     const theme = useTheme();
