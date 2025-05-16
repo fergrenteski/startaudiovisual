@@ -8,7 +8,7 @@
   },
   "banner": {
     "title": "YOUR EVENT",
-    "subtitle-1": "AND OUR TOO!",
+    "subtitle-1": "OUR TOO!",
     "subtitle-2": "IT'S FROM THE ENTIRE TEAM!",
     "text-1": "Here at ",
     "text-2": "Start Audio Visual",
@@ -67,20 +67,20 @@
     "button": "See Details",
     "events": [
       {
-        "title": "Medical Congress",
-        "subtitle": "Conference",
-        "description": "We provided audio, video, and lighting equipment for the country's largest technology conference.",
-        "date": "July 20, 2025",
-        "location": "Expo Center Norte, São Paulo",
-        "image": "eventos/evento.jpeg"
+        "title": "Evo Method Immersion",
+        "subtitle": "Training",
+        "description": "We provide all the equipment to hold this event that will have over 6,000 people (6,000).",
+        "date": "May 30 - June 1, 2024",
+        "location": "Ginásio do Sabiazinho, Uberlândia",
+        "image": "eventos/1.jpg"
       },
       {
-        "title": "Health Fair",
-        "subtitle": "Exhibition",
-        "description": "We provided audio, video, and lighting equipment for the country's largest technology conference.",
-        "date": "July 20, 2025",
-        "location": "Expo Center Norte, São Paulo",
-        "image": "eventos/evento.jpeg"
+        "title": "Climate and Clean Air Conference 2025",
+        "subtitle": "Conference",
+        "description": "One of the largest climate conferences in the world. Theme: Accelerating action against super pollutants: the path to COP30",
+        "date": "March 16 - 21, 2025",
+        "location": "Brazil - 21, Brasília",
+        "image": "eventos/3.png"
       },
       {
         "title": "Medical Congress",
@@ -159,7 +159,9 @@
       "email": "Email",
       "contact": "Contact",
       "message": "Message",
-      "button": "SEND"
+      "button": "SEND",
+      "success": "Message send.",
+      "error": "Message not send."
     },
     "info": {
       "locale": {

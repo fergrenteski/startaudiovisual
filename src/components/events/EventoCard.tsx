@@ -90,7 +90,7 @@ const EventoCard: React.FC<EventoCardProps> = ({ title, subtitle, image, descrip
                     <CardMedia
                         component="img"
                         image={image}
-                        alt={title}
+                        alt={title} sx={{ width: '100%', height: '250px' }}
                     />
                     <HoverOverlay className="hoverContent">
                         <Typography variant="h6" fontWeight="bold">

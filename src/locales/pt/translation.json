@@ -8,7 +8,7 @@
   },
   "banner": {
     "title": "SEU EVENTO!",
-    "subtitle-1": "É NOSSO TAMBÉM!",
+    "subtitle-1": "NOSSO EVENTO!",
     "subtitle-2": "É DE TODA A EQUIPE!",
     "text-1": "Aqui na ",
     "text-2": "Start Audio Visual",
@@ -67,20 +67,20 @@
     "button": "Ver Detalhes",
     "events": [
       {
-        "title": "Congresso Médico",
-        "subtitle": "Conferência",
-        "description": "Fornecemos equipamentos de áudio, vídeo e iluminação para a maior conferência de tecnologia do país.",
-        "date": "20 de Julho de 2025",
-        "location": "Expo Center Norte, São Paulo",
-        "image": "eventos/evento.jpeg"
+        "title": "Imersão Método Evo",
+        "subtitle": "Treinamento",
+        "description": "Fornecemos todos os equipamentos para realizar esse evento que contou com mais de 6 mil pessoas (6000).",
+        "date": "30 - 01 de maio - junho de 2024",
+        "location": "Ginásio do Sabiazinho, Uberlândia",
+        "image": "eventos/1.jpg"
       },
       {
-        "title": "Feira de Saúde",
-        "subtitle": "Exposição",
-        "description": "Fornecemos equipamentos de áudio, vídeo e iluminação para a maior conferência de tecnologia do país.",
-        "date": "20 de Julho de 2025",
-        "location": "Expo Center Norte, São Paulo",
-        "image": "eventos/evento.jpeg"
+        "title": "Conferência Clima e Ar Limpo 2025",
+        "subtitle": "Conferência",
+        "description": "Uma das maiores conferências climáticas do mundo. Tema: Acelerando a ação contra superpoluentes: o caminho para a COP30",
+        "date": "16 - 21 de março de 2025",
+        "location": "Brasil - 21, Brasília",
+        "image": "eventos/3.png"
       },
       {
         "title": "Congresso Médico",
@@ -159,7 +159,9 @@
       "email": "Email",
       "contact": "Contato",
       "message": "Mensagem",
-      "button": "ENVIAR"
+      "button": "ENVIAR",
+      "success": "Mensagem enviada.",
+      "error": "Mensagem não enviada."
     },
     "info": {
       "locale": {
